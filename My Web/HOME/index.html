@@ -1,0 +1,58 @@
+
+
+
+
+<html>
+
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+   
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+
+    <ul class="menu">
+        <div class="toggle"><ion-icon name="add"></ion-icon></div>
+
+        <li style="--i:0;--clr:yellow;"><a href="index.html"><ion-icon name="ban-outline"></ion-icon></a></li>
+
+        <li style="--i:1;--clr:orange;"><a href="https://google.com"><ion-icon name="logo-google"></ion-icon></a></li>
+
+        <li style="--i:2;--clr:rgb(65, 65, 173);"><a href="https://discord.gg/UUyBrZtr"><ion-icon name="logo-discord"></ion-icon></a></li>
+
+        <li style="--i:3;--clr:black;"><a href="../ABOUT/mail.html"><ion-icon name="mail-outline"></ion-icon></a></li>
+
+        <li style="--i:4;--clr:red;"><a href="https://www.youtube.com/channel/UCLH1tH72LNseZNMjIpH3jdw"><ion-icon name="logo-youtube"></ion-icon></a></li>
+        
+    </ul>
+
+
+
+   
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script>
+        let toggle = document.querySelector('.toggle');
+        let menu = document.querySelector('.menu');
+
+        toggle.onclick = function(){
+            menu.classList.toggle('active')
+
+        }
+    </script>
+</body>
+</html>
+
